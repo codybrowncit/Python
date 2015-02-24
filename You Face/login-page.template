@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/youface.css" type="text/css">
+  </head>
+  <body>
+    <header>
+      <h1><a href="/">{{title}}</a></h1>
+      <h2>{{subtitle}}</h2>
+    </header>
+
+    <section>
+      <article>
+        <h1>Login</h1>
+        <form method="post" action="/login">
+          <p><label for="name">Name:</label><input type="text" name="name"></p>
+          <p><label for="password">Password:</label><input type="password" name="password"></p>
+          <p><input type="submit" name="type" value="Login"><input type="submit" name="type" value="Create"><input type="submit" name="type" value="Delete"></p>
+        </form>
+      </article>
+    </section>
+
+    <aside>
+      <section>
+        <h1>Links</h1>
+        <ul>{for links}
+          <li><a href="{{href}}">{{text}}</a></li>{end}
+        </ul>
+      </section>
+    </aside>
+  </body>
+</html>

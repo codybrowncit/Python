@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32">
+  <image source="tiles.png" width="5504" height="1024"/>
+ </tileset>
+ <layer name="background" width="32" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+1XSQ7CMAyMVJA40ocBf+NSgcQj+wPgUAlFdupJvKTAYaQe2nriGTv2dExp+mPzuA00vOLPOxoIlxb+jz2NnAt6hpZ8UlzQM+R8PD1F8Yn2ea/g6s+rLrn644Cco9YrJXBxEa6aui2xEM9raErFlfLWyFNtbVO5stTpl1HbQ2r8ScVBe8inR5D7l/qGq0mJ39D7982vNpaUy9rZreL3hJInPebX3MMlr1vwyHUteZ2qNXTWWMsp5zXOf+isoX2fo7PGVmopanZEdbWKv0X9IvWSalbi7KFZHjtqn13y1auXvgkWNYH8y6KHIf+y6GFe/VBr32jdiVv3DY2duGXfkHxzH2JxPcTiNKZ0fuEyyp6RdyXPT2sup1sAGQAA
+  </data>
+ </layer>
+ <layer name="solid" width="32" height="50" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2WSw7AIAgF7f0v3X0TG4GHE5RJXMpDPsIYTRPnmRxa3+KL2n+rPcUblND6zTortZOZR5U+VXNUz0X0FH567/ffcA+qeRrR2jXPs/6A6PxvdPzFdUfcv/bpvW+mNdO3zvqsXqL0T4WOH61fETpeHn0yl11Ld5DRExZbtH5lvO+k41wxN9Fdqvou9gLRAD4NABkAAA==
+  </data>
+ </layer>
+ <objectgroup name="sprites" width="32" height="50">
+  <object name="player" type="player" gid="4447" x="41" y="1498"/>
+  <object name="liz" type="baddy" gid="5135" x="308" y="1432"/>
+  <object name="liz" type="baddy" gid="5135" x="768" y="1112"/>
+  <object name="liz" type="baddy" gid="5135" x="384" y="1018"/>
+  <object name="liz" type="baddy" gid="5135" x="219" y="826"/>
+  <object name="liz" type="baddy" gid="5135" x="841" y="622"/>
+  <object name="liz" type="baddy" gid="5135" x="241" y="407"/>
+  <object name="liz" type="baddy" gid="5135" x="731" y="123"/>
+  <object name="wolf" type="baddy" gid="5131" x="804" y="1506"/>
+  <object name="wolf" type="baddy" gid="5131" x="933" y="1116"/>
+  <object name="wolf" type="baddy" gid="5131" x="506" y="1318"/>
+  <object name="wolf" type="baddy" gid="5131" x="884" y="884"/>
+  <object name="wolf" type="baddy" gid="5131" x="250" y="653"/>
+  <object name="wolf" type="baddy" gid="5131" x="926" y="338"/>
+  <object name="wolf" type="baddy" gid="5131" x="223" y="187"/>
+  <object name="wolf" type="baddy" gid="5131" x="98" y="449"/>
+  <object name="eye" type="baddy" gid="1705" x="574" y="473"/>
+  <object name="eye" type="baddy" gid="1705" x="993" y="793"/>
+  <object name="eye" type="baddy" gid="1705" x="354" y="1530"/>
+  <object name="eye" type="baddy" gid="1705" x="930" y="1292"/>
+  <object name="eye" type="baddy" gid="1705" x="447" y="622"/>
+  <object name="eye" type="baddy" gid="1705" x="829" y="145"/>
+  <object name="eye" type="baddy" gid="1705" x="356" y="213"/>
+  <object name="eye" type="baddy" gid="1705" x="80" y="846"/>
+  <object name="coin" type="coin" gid="5501" x="610" y="1532"/>
+  <object name="coin" type="coin" gid="5501" x="635" y="1536"/>
+  <object name="coin" type="coin" gid="5501" x="671" y="1536"/>
+  <object name="coin" type="coin" gid="5501" x="706" y="1536"/>
+  <object name="coin" type="coin" gid="5501" x="731" y="1536"/>
+  <object name="coin" type="coin" gid="5501" x="193" y="1532"/>
+  <object name="coin" type="coin" gid="5501" x="220" y="1534"/>
+  <object name="coin" type="coin" gid="5501" x="256" y="1534"/>
+  <object name="coin" type="coin" gid="5501" x="647" y="1418"/>
+  <object name="coin" type="coin" gid="5501" x="675" y="1418"/>
+  <object name="coin" type="coin" gid="5501" x="699" y="1414"/>
+  <object name="coin" type="coin" gid="5501" x="731" y="1287"/>
+  <object name="coin" type="coin" gid="5501" x="766" y="1287"/>
+  <object name="coin" type="coin" gid="5501" x="823" y="1281"/>
+  <object name="coin" type="coin" gid="5501" x="855" y="1282"/>
+  <object name="coin" type="coin" gid="5501" x="901" y="1281"/>
+  <object name="coin" type="coin" gid="5501" x="926" y="1281"/>
+  <object name="coin" type="coin" gid="5501" x="961" y="1122"/>
+  <object name="coin" type="coin" gid="5501" x="739" y="1096"/>
+  <object name="coin" type="coin" gid="5501" x="707" y="1096"/>
+  <object name="coin" type="coin" gid="5501" x="661" y="1096"/>
+  <object name="coin" type="coin" gid="5501" x="608" y="1096"/>
+  <object name="coin" type="coin" gid="5501" x="568" y="1097"/>
+  <object name="coin" type="coin" gid="5501" x="541" y="1087"/>
+  <object name="coin" type="coin" gid="5501" x="320" y="1015"/>
+  <object name="coin" type="coin" gid="5501" x="258" y="1008"/>
+  <object name="coin" type="coin" gid="5501" x="199" y="1012"/>
+  <object name="coin" type="coin" gid="5501" x="125" y="1012"/>
+  <object name="coin" type="coin" gid="5501" x="173" y="933"/>
+  <object name="coin" type="coin" gid="5501" x="482" y="871"/>
+  <object name="coin" type="coin" gid="5501" x="548" y="863"/>
+  <object name="coin" type="coin" gid="5501" x="612" y="872"/>
+  <object name="coin" type="coin" gid="5501" x="665" y="869"/>
+  <object name="coin" type="coin" gid="5501" x="647" y="833"/>
+  <object name="coin" type="coin" gid="5501" x="581" y="836"/>
+  <object name="coin" type="coin" gid="5501" x="517" y="838"/>
+  <object name="coin" type="coin" gid="5501" x="517" y="893"/>
+  <object name="coin" type="coin" gid="5501" x="580" y="891"/>
+  <object name="coin" type="coin" gid="5501" x="632" y="896"/>
+  <object name="coin" type="coin" gid="5501" x="703" y="892"/>
+  <object name="coin" type="coin" gid="5501" x="703" y="844"/>
+  <object name="coin" type="coin" gid="5501" x="737" y="868"/>
+  <object name="coin" type="coin" gid="5501" x="772" y="891"/>
+  <object name="coin" type="coin" gid="5501" x="772" y="835"/>
+  <object name="coin" type="coin" gid="5501" x="797" y="867"/>
+  <object name="coin" type="coin" gid="5501" x="829" y="897"/>
+  <object name="coin" type="coin" gid="5501" x="829" y="835"/>
+  <object name="coin" type="coin" gid="5501" x="858" y="867"/>
+  <object name="coin" type="coin" gid="5501" x="866" y="666"/>
+  <object name="coin" type="coin" gid="5501" x="985" y="762"/>
+  <object name="coin" type="coin" gid="5501" x="930" y="762"/>
+  <object name="coin" type="coin" gid="5501" x="59" y="857"/>
+  <object name="coin" type="coin" gid="5501" x="272" y="854"/>
+  <object name="coin" type="coin" gid="5501" x="323" y="640"/>
+  <object name="coin" type="coin" gid="5501" x="363" y="607"/>
+  <object name="coin" type="coin" gid="5501" x="397" y="571"/>
+  <object name="coin" type="coin" gid="5501" x="531" y="470"/>
+  <object name="coin" type="coin" gid="5501" x="628" y="498"/>
+  <object name="coin" type="coin" gid="5501" x="684" y="521"/>
+  <object name="coin" type="coin" gid="5501" x="728" y="568"/>
+  <object name="coin" type="coin" gid="5501" x="764" y="611"/>
+  <object name="coin" type="coin" gid="5501" x="7" y="409"/>
+  <object name="coin" type="coin" gid="5501" x="61" y="251"/>
+  <object name="coin" type="coin" gid="5501" x="61" y="300"/>
+  <object name="coin" type="coin" gid="5501" x="58" y="350"/>
+  <object name="coin" type="coin" gid="5501" x="166" y="388"/>
+  <object name="coin" type="coin" gid="5501" x="225" y="388"/>
+  <object name="coin" type="coin" gid="5501" x="645" y="338"/>
+  <object name="coin" type="coin" gid="5501" x="757" y="326"/>
+  <object name="coin" type="coin" gid="5501" x="871" y="331"/>
+  <object name="coin" type="coin" gid="5501" x="792" y="144"/>
+  <object name="coin" type="coin" gid="5501" x="664" y="105"/>
+  <object name="coin" type="coin" gid="5501" x="622" y="105"/>
+  <object name="coin" type="coin" gid="5501" x="128" y="170"/>
+  <object name="coin" type="coin" gid="5501" x="176" y="163"/>
+  <object name="coin" type="coin" gid="5501" x="289" y="208"/>
+  <object name="coin" type="coin" gid="5501" x="328" y="208"/>
+  <object type="fire" gid="1707" x="69" y="1493"/>
+ </objectgroup>
+ <layer name="forground" width="32" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WWw6CMBAF0IEtwG765SNuRLfkY4eNjy9XYEnqB81MaBvaEbwnuT+EcYxIc4kgx7EnOvV1Pzdmp/HRYn0A/pFhUpNlsgQ4twDmpXkODcJzSPP9Jpp+v3/9+60Nfu88XMfgcujGiTV1P9cxuLy7cWKl3r9Gmuf2YGn9UVP4nIxwvZTwOVnh+hf+WwAgkfpELVKfKOnp8sqYu7s8ZthzbYhuTfr+s5u5+Lmw73EdTtqza4n2bfr+jZvZ+rmw73EdLndPKR+5eKZ8ABkAAA==
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/youface.css" type="text/css">
+  </head>
+  <body>
+    <header>
+      <h1><a href="/">{{title}}</a></h1>
+      <h2>{{subtitle}}</h2>
+    </header>
+
+    <section>
+      <article>
+        <h1>Welcome, {{name}}</h1>
+        <form method="post" action="/status">
+          <p><label for="status">Change your status:</label><input type="text" name="status"></p>
+          <p><input type="submit" name="change" value="Change"></p>
+        </form>
+      </article>
+      <article>
+        <h1>Recent status updates</h1>
+        <ul>{for updates}
+          <li>{{status}}</li>{end}
+        </ul>
+      </article>
+    </section>
+
+    <aside>
+      <section>
+        <h1>Logout</h1>
+        <form method="post" action="/logout">
+          <p><input type="submit" name="logout" value="Logout"></p>
+        </form>
+      </section>
+      <section>
+        <h1>Friends</h1>
+        <ul>{for friends}
+          <li><a href="/friend/{{name}}">{{name}}</a></li>{end}
+        </ul>
+        <form method="post" action="/addfriend">
+          <p><input type="text" name="name" /><input type="submit" name="addfriend" value="Add Friend"></p>
+        </form>
+      </section>
+      <section>
+        <h1>Links</h1>
+        <ul>{for links}
+          <li><a href="{{href}}">{{text}}</a></li>{end}
+        </ul>
+      </section>
+    </aside>
+  </body>
+</html>
